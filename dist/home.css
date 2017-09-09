@@ -294,7 +294,7 @@ section.globalNavigation .tabs-nav > li{
     width: 12px;
     height: 8px;
     margin-right: 4px;
-    background: url(./images/sprite.png) no-repeat;
+    background: url(../images/sprite.png) no-repeat;
     background-size: 166px 97px;
 }
 .playButton{
@@ -304,7 +304,7 @@ section.globalNavigation .tabs-nav > li{
     display: inline-block;
     width: 22px;
     height: 22px;
-    background: url(./images/sprite.png) no-repeat;
+    background: url(../images/sprite.png) no-repeat;
     background-size: 166px 97px;
     background-position: -24px 0;
     vertical-align: bottom;
@@ -346,7 +346,7 @@ section.globalNavigation .tabs-nav > li{
 
 .pannel-2{}
 .pannel-2 .hotMusicBackground{
-    background: url(./images/hot_music_bg_2x.jpg) no-repeat;
+    background: url(../images/hot_music_bg_2x.jpg) no-repeat;
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -376,7 +376,7 @@ section.globalNavigation .tabs-nav > li{
 .pannel-2 .hotMusicBackground > .hotSprites{
     width: 142px;
     height: 67px;
-    background: url(./images/sprite.png) no-repeat;
+    background: url(../images/sprite.png) no-repeat;
     background-size: 166px 97px;
     background-position: -24px -30px;
     position: absolute;
