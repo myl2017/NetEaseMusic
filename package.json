@@ -12,9 +12,15 @@
     "eslint-plugin-promise": "^3.5.0",
     "babel-cli": "^6.26.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "eslint": "^4.6.1",
+    "postcss": "^6.0.11",
+    "uglify": "^0.1.5"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bulid": "rm -rf dist/*;postcss --use autoprefixer --dir dist/ src/*.css; eslint src/*.js && babel src/script.js | uglifyjs > dist/script.js; ehco 'success'"
   },
   "repository": {
     "type": "git",
