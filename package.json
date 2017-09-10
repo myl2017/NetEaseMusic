@@ -1,18 +1,30 @@
 {
-  "name": "music-201708",
+  "name": "NetEaseMusic",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "我的网易云音乐优化升级 v.201709",
+  "main": ".eslintrc.js",
+  "dependencies": {
+    "babel-preset-env": "^1.6.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "babel-cli": "^6.26.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myl2017/NetEaseMusic.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "jquery": "^3.2.1"
+  "bugs": {
+    "url": "https://github.com/myl2017/NetEaseMusic/issues"
   },
-  "devDependencies": {
-    "autoprefixer": "^7.1.4",
-    "postcss-cli": "^4.1.0"
-  }
+  "homepage": "https://github.com/myl2017/NetEaseMusic#readme"
 }
