@@ -15,12 +15,14 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "eslint": "^4.6.1",
+    "gulp": "^3.9.1",
     "postcss": "^6.0.11",
     "uglify": "^0.1.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bulid": "rm -rf dist/*;postcss --use autoprefixer --dir dist/ src/*.css; eslint src/*.js && babel src/script.js | uglifyjs > dist/script.js; ehco 'success'"
+    "bulid": "rm -rf dist/*;postcss --use autoprefixer --dir dist/ src/*.css; eslint src/*.js && babel src/script.js | uglifyjs > dist/script.js; ehco 'success'",
+    "selfgulp":"gulp"
   },
   "repository": {
     "type": "git",
