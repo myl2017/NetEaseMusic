@@ -9,20 +9,16 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-standard": "^3.0.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "babel-cli": "^6.26.0"
+    "eslint-plugin-promise": "^3.5.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "autoprefixer": "^7.1.4",
+    "babel-preset-env": "^1.6.0",
     "eslint": "^4.6.1",
-    "gulp": "^3.9.1",
-    "postcss": "^6.0.11",
-    "uglify": "^0.1.5"
+    "postcss": "^6.0.11"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "bulid": "rm -rf dist/*;postcss --use autoprefixer --dir dist/ src/*.css; eslint src/*.js && babel src/script.js | uglifyjs > dist/script.js; ehco 'success'",
-    "selfgulp":"gulp"
+   
   },
   "repository": {
     "type": "git",
